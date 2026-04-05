@@ -1,0 +1,15 @@
+nohup: ignoring input
+[2026/04/05 06:15:51:7718] N: ttyd 1.7.4-fa1ee59 (libwebsockets 4.3.2-unknown)
+[2026/04/05 06:15:51:7719] N: tty configuration:
+[2026/04/05 06:15:51:7720] N:   start command: tmux attach -t antigravity
+[2026/04/05 06:15:51:7721] N:   close signal: SIGHUP (1)
+[2026/04/05 06:15:51:7722] N:   terminal type: xterm-256color
+[2026/04/05 06:15:51:7723] N: The --writable option is not set, will start in readonly mode
+[2026/04/05 06:15:51:7724] N: lws_create_context: LWS: 4.3.2-unknown, NET SRV H1 WS MbedTLS ConMon IPV6-off
+[2026/04/05 06:15:51:7755] N: elops_init_pt_uv:  Using foreign event loop...
+[2026/04/05 06:15:51:7772] N: __lws_lc_tag:  ++ [wsi|0|pipe] (1)
+[2026/04/05 06:15:51:7773] N: __lws_lc_tag:  ++ [vh|0|netlink] (1)
+[2026/04/05 06:15:51:7774] N: __lws_lc_tag:  ++ [vh|1|default||7681] (2)
+[2026/04/05 06:15:51:7775] N: [vh|1|default||7681]: lws_socket_bind: source ads 0.0.0.0
+[2026/04/05 06:15:51:7777] N: __lws_lc_tag:  ++ [wsi|1|listen|default||7681] (2)
+[2026/04/05 06:15:51:7778] N:  Listening on port: 7681

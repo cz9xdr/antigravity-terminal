@@ -1,0 +1,2 @@
+pkill -f ttyd && tmux kill-session -t antigravity && tmux new-session -d -s antigravity && nohup ttyd -p 7681 tmux attach -t antigravity > ttyd.log 2>&1 & echo "✅ 재시작 완료!"
+public
